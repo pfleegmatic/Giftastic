@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mecha Anime</title>
+
+  <!-- Link to the jQuery -->
+  <script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+
+  <!-- Link to the Bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+  <!-- link to google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Audiowide|Baloo+Bhai|Orbitron" rel="stylesheet">
+
+
+  <!-- style css file -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <!-- Bootstrap Grid 12 col -->
+  <div class="container">
+
+    <!-- Jumbotron with Title -->
+    <div class="jumbotron">
+
+      <h1 class="text-center"><strong>Robots Stop and Go!</strong></h1>
+      <h2 class="text-center">Click on a gif to see the action</h2>
+
+    </div> <!-- End Jumbotron -->
+
+    <!-- Row with anime buttons -->
+    <div class="row" id="buttonPanel">
+    </div> <!-- End row with anime buttons -->
+
+    <!-- Row for containing submission form panel and gif panel-->
+    <div class="row">
+
+
+      <!-- Left panel contains the user form -->
+      <div class="col-lg-2 formPanel"> 
+        <form id="anime-form">
+          <label for="anime-input" class="inputLabel">Add an anime</label>
+          <input type="text" id="anime-input"><br>
+
+          <!-- Submit button adds new animal to button panel row -->
+          <input id="add-anime" type="submit" value="Submit">
+        </form>
+      </div> <!-- end div for left panel containing form -->
+
+      <!-- Right panel contains the images -->
+      <div class="col-lg-10" id="gifPanel">
+      </div> <!-- End div for right panel containing images or gifs  -->
+
+      
+    </div> <!-- End row with form and gifs -->
+
+   
+
+  </div> <!-- end div for container-->
+
+  <!-- javascript app file-->
+  <script type="text/javascript" src="./assets/javascript/app.js"></script>
+
+</body>
+</html>

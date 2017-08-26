@@ -1,0 +1,115 @@
+body {
+		background: url("../images/universe.jpg");
+		/*background-repeat: repeat;*/
+	}
+	
+	.jumbotron {
+	  /*position: relative;*/
+	  background-color: transparent;
+	  padding: 0.6em 0.6em;
+	  margin: 2.0em 0.0em 0em 0.0em;
+	}
+	
+	.jumbotron h1 {
+	  font-size: 5.0em;
+	  font-family: 'Orbitron', sans-serif;'Orbitron', cursive;
+	  color: #ffffcc;
+	}
+	
+	.jumbotron h2 {
+	  font-size: 2.0em;
+	font-family: 'Audiowide', cursive;
+	  color: #ffffff;
+	}
+	
+	.animeButton {
+	  padding: 10px 20px;
+	  font-size: 15px;
+	  font-family: 'Audiowide', cursive;
+	  text-align: center;
+	  cursor: pointer;
+	  outline: white solid 2px;
+	  color: #ffffff;
+	  background-color: #0066ff;
+	  display: inline;
+	  margin: 5px 5px;
+	}
+	
+	.animeButton:hover {
+	  background-color: #66ccff;
+	}
+	
+	.animeButton:active {
+	  background-color: #f2d3e7;
+	  box-shadow: 0 5px #666;
+	  transform: translateY(4px);
+	}
+	
+	#gifPanel {
+	  margin: 10px 0px 0px 0px;
+	}
+
+
+	.animeGif img {
+	  border-radius: 5px 5px;
+	  /*position: relative;*/
+	}
+	
+	.animeGif {
+	  margin: 20px 20px 0px 0px;
+	  float: left;
+	  border-radius: 5px 5px;
+	  /*position: relative;*/
+	  left: -1px;
+	  background: linear-gradient(to right, #006699, #0099cc, #00ccff );
+	}
+	
+	.animeGif:hover {
+	  background-color: #bdd9c7;
+	}
+	
+	.animeGif h2 {
+	  font-size: 15px;
+	  color: white;
+	  text-align: center;
+	 font-family: 'Audiowide', cursive;
+	  /*position: relative;*/
+	  top: -3px;
+	}
+	
+	
+	
+	.formPanel {
+	  position: relative;
+	  top: 30px;
+	  right: 35px;
+	  border-radius: 5px 5px;
+	  outline: white solid 2px;
+	  background: linear-gradient(to bottom, #006699, #0099cc, #66ff33 );
+	  height: 145px;
+	}
+	
+	.inputLabel {
+	  font-size: 15px;
+	  font-family: 'Baloo Bhai', cursive;
+	  color: #ecf2f9;
+	  margin: 15px 0px;
+	  margin-left: 32px;
+	}
+	
+	#anime-input {
+	  width: 140px;
+	  margin-left: 15px;
+	}
+	
+	#anime-input:focus {
+	  background-color: #bdd9c7;
+	}
+	
+	#add-anime {
+	  margin-top: 15px;
+	  margin-left: 15px;
+	  padding: 5px 45px;
+	}
+	
+	
