@@ -1,10 +1,8 @@
 body {
 		background: url("../images/universe.jpg");
-		/*background-repeat: repeat;*/
 	}
 	
 	.jumbotron {
-	  /*position: relative;*/
 	  background-color: transparent;
 	  padding: 0.6em 0.6em;
 	  margin: 2.0em 0.0em 0em 0.0em;
@@ -52,14 +50,12 @@ body {
 
 	.animeGif img {
 	  border-radius: 5px 5px;
-	  /*position: relative;*/
 	}
 	
 	.animeGif {
 	  margin: 20px 20px 0px 0px;
 	  float: left;
 	  border-radius: 5px 5px;
-	  /*position: relative;*/
 	  left: -1px;
 	  background: linear-gradient(to right, #006699, #0099cc, #00ccff );
 	}
@@ -73,7 +69,6 @@ body {
 	  color: white;
 	  text-align: center;
 	 font-family: 'Audiowide', cursive;
-	  /*position: relative;*/
 	  top: -3px;
 	}
 	
